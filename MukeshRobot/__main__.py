@@ -111,9 +111,8 @@ buttons = [
         ),
         InlineKeyboardButton(
             text="📢 Network", url="https://telegram.dog/kaizoyu"
+    ),
     ],
-    
-
 ]
 
 HELP_STRINGS = f"""
