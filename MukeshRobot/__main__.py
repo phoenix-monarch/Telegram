@@ -95,17 +95,15 @@ buttons = [
      ],
     [
         InlineKeyboardButton(
-            text="❣ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ❣︎", url=f"t.me/{BOT_USERNAME}?startgroup=new"
+            text="Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ",
+            url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text=f"🚁 ʜᴇʟᴘ 🚁", callback_data="Main_help"),
-        InlineKeyboardButton(text=f"🚩sᴜᴩᴩᴏʀᴛ", callback_data="weebs_support",
+        InlineKeyboardButton(text="📚 ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
     ],
-    [
-        InlineKeyboardButton(text=f"🔎 ɴᴇᴛᴡᴏʀᴋ", callback_data="weebs_support",
-        InlineKeyboardButton(text=" ᴏᴡɴᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
-    ],
+    
+
 ]
 
 HELP_STRINGS = f"""
